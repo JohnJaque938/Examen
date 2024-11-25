@@ -1,0 +1,52 @@
+body {
+    display: flex; /* Se utiliza flexbox para alinear el contenido en el centro */
+    justify-content: center; /* Se centra el contenido horizontalmente */
+    align-items: center; /* Se centra el contenido verticalmente */
+    height: 100vh; /* Se establece la altura del cuerpo al 100% de la altura de la ventana */
+    margin: 0; /* Se elimina el margen predeterminado del cuerpo */
+    background-color: #f0f0f0;  /* Se establece el color de fondo en gris */
+}
+
+.button-container {
+    display: grid; /* Se utiliza un diseño de cuadrícula para el contenedor de botones */
+    grid-template-columns: repeat(2, 1fr); /* Se define una cuadrícula con 2 columnas de tamaño igual */
+    gap: 20px; /* Se añade un espacio de 20px entre los elementos de la cuadrícula */
+}
+
+.button-1 {
+    display: flex; /* Se utiliza flexbox para centrar el texto dentro del botón */
+    justify-content: center; /* Se centra el texto horizontalmente dentro del botón */
+    align-items: center; /* Se centra el texto verticalmente dentro del botón */
+    width: 150px; /* Se establece el ancho del botón en 150px */
+    height: 150px; /* Se establece la altura del botón en 150px */
+    font-size: 18px; /* Se define el tamaño de la fuente en 18px */
+    background-color: #D100D1; /* Se establece el color de fondo en un tono magenta */
+    color: white; /* Se establece el color del texto en blanco */
+    border: none; /* Se elimina el borde del botón */
+    text-decoration: none; /* Se elimina cualquier subrayado del texto */
+    cursor: pointer; /* Se cambia el cursor a un puntero para indicar que es interactivo */
+    transition: background-color 0.3s ease; /* Se agrega una transición suave para el cambio de color de fondo */
+}
+
+.button-2 {
+    display: flex; /* Se utiliza flexbox para centrar el texto dentro del botón */
+    justify-content: center; /* Se centra el texto horizontalmente dentro del botón */
+    align-items: center; /* Se centra el texto verticalmente dentro del botón */
+    width: 150px; /* Se establece el ancho del botón en 150px */
+    height: 150px; /* Se establece la altura del botón en 150px */
+    font-size: 18px; /* Se define el tamaño de la fuente en 18px */
+    background-color: #66CC33;  /* Se establece el color de fondo en un tono verde */
+    color: white; /* Se establece el color del texto en blanco */
+    border: none; /* Se elimina el borde del botón */
+    text-decoration: none; /* Se elimina cualquier subrayado del texto */
+    cursor: pointer; /* Se cambia el cursor a un puntero para indicar que es interactivo */
+    transition: background-color 0.3s ease; /* Se agrega una transición suave para el cambio de color de fondo */
+}
+
+.button-1:hover {
+    background-color: #C700C7; /* Se cambia el color de fondo del botón al pasar el ratón por encima */
+}
+
+.button-2:hover {
+    background-color: #5BA825; /* Se cambia el color de fondo del botón al pasar el ratón por encima */
+}

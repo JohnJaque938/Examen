@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; /* Se establece la fuente como Arial y sans-serif como respaldo */
+    margin: 0; /* Se elimina el margen predeterminado del cuerpo */
+    padding: 0; /* Se elimina el padding predeterminado del cuerpo */
+    background-color: #f0f0f0; /* Se establece el color de fondo gris */
+    display: flex; /* Se utiliza un contenedor flexible para poder centrar el contenido */
+    justify-content: center; /* Se centra el contenido horizontalmente */
+    align-items: center; /* Se centra el contenido verticalmente */
+    height: 600px; /* Se define la altura fija de 600px para el cuerpo */
+    flex-direction: column; /* Se organiza los elementos en una columna */
+    text-align: center; /* Se centra el texto dentro del cuerpo */
+}
+
+.container {
+    max-width: 500px; /* Se difine un ancho de máximo de 250px para el contenedor */
+    padding: 20px; /* Se agrega un padding interno de 20px */
+    border: 1px solid #ccc; /* Se añade un borde gris alrededor del contenedor */
+    border-radius: 10px; /* Se aplica bordes redondeados de 10px */
+    background-color: #fff; /* Se establece el color de fondo como blanco */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Se añade una sombra sutil alrededor del contenedor */
+}
+
+.Recuadro {
+    width: 100%; /* Se define un ancho completo para el elemento */
+    height: 30px; /* Se establece una altura de 30px */
+    margin: 10px 0; /* Se añade un margen de 10px arriba y abajo */
+    padding: 10px; /* Se agrega un padding interno de 10px */
+    font-size: 16px; /* Se establece el tamaño de la fuente a 16px */
+    border: 1px solid #ccc; /* Se añade un borde gris alrededor del elemento */
+    border-radius: 5px; /* Se aplica bordes redondeados de 5px */
+    box-sizing: border-box; /* Se incluye el padding y el borde en el cálculo del ancho y alto */
+}
+
+button {
+    padding: 10px 20px; /* Se agrega un padding interno de 10px arriba y abajo, y 20 a los lados */
+    background-color: #007BFF; /* Se establece el color de fondo como azul */
+    color: #fff; /* Se establece el color del texto como blanco */
+    border: none; /* Se elimina el borde del botón */
+    border-radius: 5px; /* Se aplica bordes redondeados de 5px */
+    cursor: pointer; /* Se cambia el cursor a una mano para indicar el clic */
+    transition: background-color 0.3s ease; /* Se agrega una transición suave al cambiar el color de fondo */
+    margin: 10px auto; /* Se añade un margen de 10px arriba y abajo, y centra el botón horizontalmente */
+}
+
+button:hover {
+    background-color: #0056b3; /* Se cambia el color de fondo a un azul más oscuro al pasar el cursor por encima */
+}
